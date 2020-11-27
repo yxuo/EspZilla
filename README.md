@@ -24,4 +24,4 @@ It provides features such as connection stability and reability, automatization 
 
  <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Octocat" width="50%"> 
  
-* Forked from [https://github.com/ldab/ESP32_FTPClient](https://github.com/ldab/ESP32_FTPClient)
+* Forked from [https://github.com/ldab/ESP32_FTP](https://github.com/ldab/ESP32_FTP)

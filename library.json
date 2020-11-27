@@ -1,5 +1,5 @@
 {
-  "name": "ESP32-FTP",
+  "name": "ESP32 FTP",
   "version": "0.2",
   "description": "FTP client for ESP32 with automated comunication and simplified management",
   "keywords": "sensors, low power, mobile, ftp, web, cloud, iot, esp32, espressif, client",

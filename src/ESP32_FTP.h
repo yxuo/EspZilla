@@ -1,4 +1,4 @@
-class ESP32_FTPClient
+class ESP32_FTP
 {
 private:
 
@@ -59,8 +59,8 @@ public:
     TYPE_I
   }en_FTP_file_type;
 
-  ESP32_FTPClient(char *_serverAdress, uint16_t _port, char *_userName, char *_passWord, uint16_t _timeout = 10000, uint8_t _verbose = 1);
-  ESP32_FTPClient(char *_serverAdress, char *_userName, char *_passWord, uint16_t _timeout = 10000, uint8_t _verbose = 1);
+  ESP32_FTP(char *_serverAdress, uint16_t _port, char *_userName, char *_passWord, uint16_t _timeout = 10000, uint8_t _verbose = 1);
+  ESP32_FTP(char *_serverAdress, char *_userName, char *_passWord, uint16_t _timeout = 10000, uint8_t _verbose = 1);
   void openConnection();
   void closeConnection();
   void status();

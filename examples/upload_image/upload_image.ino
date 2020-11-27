@@ -3,7 +3,7 @@
 ESP32-CAM remote image access via FTP. Take pictures with ESP32 and upload it via FTP making it accessible for the outisde network. 
 Leonardo Bispo
 July - 2019
-https://github.com/ldab/ESP32_FTPClient
+https://github.com/ldab/ESP32_FTP
 
 Distributed as-is; no warranty is given.
 
@@ -11,7 +11,7 @@ Distributed as-is; no warranty is given.
 #include "Arduino.h"
 #include <WiFi.h>
 #include <WiFiClient.h> 
-#include <ESP32_FTPClient.h>
+#include <ESP32_FTP.h>
 #include "octocat.h"
 
 #define WIFI_SSID ""
@@ -22,7 +22,7 @@ char ftp_user[]   = "";
 char ftp_pass[]   = "";
 
 // you can pass a FTP timeout and debbug mode on the last 2 arguments
-ESP32_FTPClient ftp (ftp_server,ftp_user,ftp_pass, 5000, 2);
+ESP32_FTP ftp (ftp_server,ftp_user,ftp_pass, 5000, 2);
 
 void setup()
 {
