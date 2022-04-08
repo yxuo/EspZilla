@@ -13,7 +13,7 @@ Some content and basic functions are from the [ancestor project](https://github.
 
 The forked libraries I tested (`2022/04/08`) uses 4, 5 functions to do one simple FTP task.
 
-This project automated these little steps inside big final functions, like:sss
+This project automated these little steps inside big final functions, like
 
 * Upload/download binary;
 
