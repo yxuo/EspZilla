@@ -1,5 +1,5 @@
 {
-  "name": "ESP32 FTP",
+  "name": "EspZilla",
   "version": "0.2",
   "description": "FTP client for ESP32 with automated comunication and simplified management",
   "keywords": "sensors, low power, mobile, ftp, web, cloud, iot, esp32, espressif, client",
@@ -12,9 +12,9 @@
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/kzasca/ESP32-FTP.git"
+    "url": "https://github.com/yxuo/EspZilla.git"
   },
-  "homepage": "https://github.com/kzasca/ESP32-FTP",
+  "homepage": "https://github.com/yxuo/EspZilla",
   "export": {
     "exclude": [
       "linux",
